@@ -1,0 +1,71 @@
+/* Estilos para la imagen de perfil en la tarjeta superpuesta */
+.profile-image-full {
+max-width: 100%; /* Hacer que la imagen sea responsiva */
+display: block;
+margin: 0 auto;
+}
+
+/* Estilos para el botón de cierre en la tarjeta superpuesta */
+.close {
+position: absolute;
+top: 10px;
+right: 10px;
+font-size: 1.5rem;
+cursor: pointer;
+}
+
+/* Estilo general del cuerpo de la página */
+body {
+background-color: rgb(15, 52, 72);
+color: white;
+}
+
+/* Estilo del contenedor principal */
+.container {
+background-color: rgb(30, 67, 87);
+padding: 20px;
+border-radius: 10px;
+}
+
+/* Estilo del botón de búsqueda */
+#searchBtn {
+background-color: rgb(39, 74, 93);
+border-color: rgb(39, 74, 93);
+}
+
+/* Estilo del resultado de búsqueda */
+#results {
+background-color: rgb(31, 55, 68);
+padding: 10px;
+border-radius: 5px;
+}
+
+/* Estilo del nombre de usuario en los resultados */
+.user-name {
+color: rgb(255, 255, 255);
+cursor: pointer;
+}
+
+/* Estilo de la tarjeta superpuesta */
+.modal {
+background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Estilo del contenido dentro de la tarjeta superpuesta */
+.modal-content {
+background-color: rgb(30, 67, 87);
+color: white;
+border-radius: 10px;
+}
+
+/* Estilo del botón de cierre en la tarjeta superpuesta */
+.close {
+color: white;
+}
+
+/* Estilo de la imagen de perfil en la tarjeta superpuesta */
+.profile-image-full {
+max-width: 100%;
+display: block;
+margin: 0 auto;
+}
